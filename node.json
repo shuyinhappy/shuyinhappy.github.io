@@ -3,16 +3,16 @@
       {
         "id": "0",
         "name": "居民区5G SINR质差清单",
-        "symbolSize": 30,
-        "x": -266.82776,
-        "y": 299.6904,
+        "symbolSize": 60,
+        "x": -100.82776,
+        "y": 100.6904,
         "value": 28.685715,
         "category": 0
       },
       {
         "id": "1",
         "name": "波束优化AI模型",
-        "symbolSize": 30,
+        "symbolSize": 60,
         "x": -418.08344,
         "y": 446.8853,
         "value": 4,
@@ -30,7 +30,7 @@
       {
         "id": "3",
         "name": "O域--MR",
-        "symbolSize": 20,
+        "symbolSize": 30,
         "x": -242.82404,
         "y": 235.26283,
         "value": 9.485714,
@@ -39,7 +39,7 @@
       {
         "id": "4",
         "name": "O域--PM",
-        "symbolSize": 20,
+        "symbolSize": 30,
         "x": -379.30386,
         "y": 429.06424,
         "value": 4,
@@ -48,7 +48,7 @@
       {
         "id": "5",
         "name": "B域",
-        "symbolSize": 20,
+        "symbolSize": 30,
         "x": -417.26337,
         "y": 406.03506,
         "value": 4,
@@ -57,7 +57,7 @@
       {
         "id": "6",
         "name": "算法",
-        "symbolSize": 20,
+        "symbolSize": 30,
         "x": -332.6012,
         "y": 485.16974,
         "value": 4,
@@ -200,25 +200,47 @@
       }
     ],
     "links": [
+
+
       {
         "source": "2",
-        "target": "0"
+        "target": "0",
+"lineStyle": { 
+ "width": 5, 
+ "curveness": 0.2 
+ } 
       },
       {
         "source": "3",
-        "target": "0"
+        "target": "0",
+"lineStyle": { 
+ "width": 5, 
+ "curveness": 0.2 
+ } 
       },
       {
         "source": "4",
-        "target": "0"
+        "target": "0",
+"lineStyle": { 
+ "width": 5, 
+ "curveness": 0.2 
+ } 
       },
       {
         "source": "5",
-        "target": "0"
+        "target": "0",
+"lineStyle": { 
+ "width": 5, 
+ "curveness": 0.2 
+ } 
       },
       {
         "source": "6",
-        "target": "0"
+        "target": "0",
+"lineStyle": { 
+ "width": 5, 
+ "curveness": 0.2 
+ } 
       },
       {
         "source": "7",
@@ -282,23 +304,43 @@
       },
       {
         "source": "8",
-        "target": "1"
+        "target": "1",
+"lineStyle": { 
+ "width": 3, 
+ "curveness": 0.2 
+ } 
       },
       {
         "source": "11",
-        "target": "1"
+        "target": "1",
+"lineStyle": { 
+ "width": 3, 
+ "curveness": 0.2 
+ } 
       },
       {
         "source": "12",
-        "target": "1"
+        "target": "1",
+"lineStyle": { 
+ "width": 3, 
+ "curveness": 0.2 
+ } 
       },
       {
         "source": "18",
-        "target": "1"
+        "target": "1",
+"lineStyle": { 
+ "width": 3, 
+ "curveness": 0.2 
+ } 
       },
       {
         "source": "19",
-        "target": "1"
+        "target": "1",
+"lineStyle": { 
+ "width": 3, 
+ "curveness": 0.2 
+ } 
       }
     ],
     "categories": [
