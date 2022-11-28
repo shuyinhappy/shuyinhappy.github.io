@@ -3,7 +3,7 @@
       {
         "id": "0",
         "name": "居民区5G SINR质差清单",
-        "symbolSize": 60,
+        "symbolSize": 45,
         "x": -100.82776,
         "y": 100.6904,
         "value": 28.685715,
@@ -12,7 +12,7 @@
       {
         "id": "1",
         "name": "波束优化AI模型",
-        "symbolSize": 60,
+        "symbolSize": 45,
         "x": -418.08344,
         "y": 446.8853,
         "value": 4,
