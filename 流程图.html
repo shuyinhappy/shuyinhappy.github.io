@@ -1,5 +1,5 @@
 <!--
-	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=graph-label-overlap&decal=1&code=LYTwwgFghgTgLgOgM4QPYHcAyqoBMCWAdgOYAUAlANwBQAJAsQKZwBSAygPIBypA5BHDgAHJAC4A9OJQBXEEWhChIBvjgRpAIwT5U4wqlyMEAKySpCvADQACAGbTCAYzg7C10sRhQhEctYDe1NbWoJCwiBD4hth4RGRUQdaoQi7m1gC8AYnBcKioADYuQqIBAL6W2db5jEyEuCUA2pXBgcFtbbhQcFAlnt4QCI5dNagw-IxICMDepPZOqW6kUH6t7WswzNIwblAIhFDAjDRrbaXkzdallQC6Fe1IjGMTjRerJ_uHJbwArADigBSxgDvdQCiOoBEG0AXMqAQitANHqVguORAQkYXz6PjhJ2C-SgIFQ0jgX1so0cjHRGM63V6Xh8ewMEzuGPyRAA1mJrKiBozCCz6SchnARk9WezBsNiKNxkgeescMASnAYNJGFL2liNIx8iU3hiUBg5QqlfC2kJUEhVK4vmNiAJSRi7KNpoJHl9_BpSrxDeVDar1Zhsbj8VlbcFIoYOAA3R5Y4rWeWKj3KtpIIbVTD4YCqTWG4LpwglAAMCAALAn2tMAB4lABM8a9REYbDgIGqmaD1kcBVGXzMW2JNoxji2EcIE1ZBYAzB7DSW7TBiS2gxshNJ8qbzCUABx5vM122MXBMNggYAaAqNXiOfCz6pWay8WAwDC8W6GxjAHxQU2srUnQkD1l33BjCgYknBAPsTk5etG2bQNW2sdAojUEoAEZt1bK5bQwtYsOCa5ElKY4QnAaB4GQZgOBSVxSGSBYEjOSggA
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=graph-label-overlap&theme=dark&code=LYTwwgFghgTgLgOgM4QPYHcAyqoBMCWAdgOYAUAlANwCwAUACQLECmcAUgMoDyAcqQOQQ4cAA5IAXAHpJKAK4gi0ESJBN8cCLIBGCfKkmFUuZggBWSVIX4AaAAQAzWYQDGcPYVuliMKCIjlbAG86W1tQSFhECHxjbDwiMioQ21QRN0tbAF4g5NC4VFQAGzcRcSCAX2tc20LmFkJcMoBtatDg2lDOztwoOCgy718IBGdeutQYfGYkBGBfUkcXdI9SKAD2rs3bGFZZGA8oBEIoYGYaDq3bcvJWq-qAXSqL0KRmSenm243L49Oy_gArABxQAUsYA73UAojqARBtAFzKgEIrQDR6jZbnkQCJmP9Bn5kc9NoUoCBULI4P97BNnMwcZdbD0-gMfH4jkZpk9qYUiABrCS2LHDdmELmsy6jODjd7c3kjMbECZTJBCrYwHDAMpwGCyZgKvFQLTMQplb7UlAYVXqzUozoiVBIdTuf6TYhCKnUhwTObCN7_QJacr8C2VC343WFTAEokknK4rbRYxcABub3xpVsao1_q1XSQo1qmHwwHUBotoXzhDKAAYEAAWDObOYADzKACZ04GiMwOHAQLVC1HNs4ihN_hY9hTndTnHsE4RptyKwBmf0WmuhMkwCk9l3bZgiWSFG2WJsAstl9PMXAsDggYBaIrNfjOfBr2o2Wz8WBK9D8R4W5jAPxQG1uUNS4yQnbk31wUwoApFwQDHS5-XbTtu0jTdQnQGINDKABGE9ey6cpyluIjcXuZJynOYtwGgeBkFYLg0ncUhUmWJJaGuSggA
 	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
 -->
 <!DOCTYPE html>
@@ -11,9 +11,9 @@
   <div id="container" style="height: 100%"></div>
 
   <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/jquery"></script>
-  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.min.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.1/dist/echarts.min.js"></script>
   <!-- Uncomment this line if you want to dataTool extension
-  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.0/dist/extension/dataTool.min.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.1/dist/extension/dataTool.min.js"></script>
   -->
   <!-- Uncomment this line if you want to use gl extension
   <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
@@ -27,12 +27,12 @@
   -->
   <!-- Uncomment these two lines if you want to use bmap extension
   <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
-  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.0/dist/extension/bmap.min.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.1/dist/extension/bmap.min.js"></script>
   -->
 
   <script type="text/javascript">
     var dom = document.getElementById('container');
-    var myChart = echarts.init(dom, null, {
+    var myChart = echarts.init(dom, 'dark', {
       renderer: 'canvas',
       useDirtyRect: false
     });
@@ -79,15 +79,13 @@ $.getJSON('https://shuyinhappy.github.io/node.json', function (graph) {
         }
         ,
         force: {
-          repulsion: 800
-        },
-        edgeSymbol: ['circle', 'arrow'],
+          repulsion: 2500
+        },edgeSymbol: ['circle', 'arrow'],
         emphasis: {
           focus: 'adjacency',
           lineStyle: {
             width: 10
-          }
-        }
+          }}
       }
     ]
   };
